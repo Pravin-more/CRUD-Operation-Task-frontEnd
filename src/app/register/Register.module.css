@@ -1,0 +1,57 @@
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.BackButton {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formGroup {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.input,
+.fileInput {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 1em;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #005bb5;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}

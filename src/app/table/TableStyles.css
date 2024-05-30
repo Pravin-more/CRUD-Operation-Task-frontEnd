@@ -1,0 +1,38 @@
+/* TableStyles.css */
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ant-table {
+    border: 1px solid #ddd;
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td {
+    border: 1px solid #ddd;
+}
+
+.ant-table-tbody>tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.handleAddBtn {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-table {
+    padding: 5%;
+}
+
+.table-card h3 {
+    padding-bottom: 10px;
+}
